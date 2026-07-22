@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #newParagrph{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="header">Hello, World</h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <button id="btn">Tıkla</button>
+
+    <ul id="itemList">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <button id="addItem">Add Item</button>
+
+    <script>
+        let header = document.getElementById("header")
+        let paragraph = document.querySelector("p")
+        let button = document.getElementById("btn")
+
+        console.log(header.textContent)
+
+        header.textContent = "New Header Text"
+        paragraph.innerHTML = "<strong>This is a bold paragrapg.</strong>"
+
+        header.style.color = "red"
+        header.style.fontSize = "24px"
+
+        let body = document.body
+        let firtChild = body.firstChild
+        console.log(firtChild)
+
+        let newParagraph = document.createElement("p")
+        newParagraph.id = "newParagrph";
+        newParagraph.textContent = "This is a new Paragraph"
+        document.body.appendChild(newParagraph)
+
+        let ul = document.createElement("ul")
+        for(let i = 1; i<=5; i++){
+            let li = document.createElement("li")
+            li.textContent = `Item ${i}`;
+            ul.appendChild(li)
+        }
+        document.body.appendChild(ul)
+
+        const itemList = document.getElementById("itemList")
+
+        itemList.addEventListener("click", function(event){
+            if(event.target.tagName === "LI"){
+                alert(event.target.textContent)
+            }
+        })
+
+        document.getElementById("addItem").addEventListener("click", function(){
+            let newItem = document.createElement("li");
+            newItem.textContent = `Item ${itemList.children.length + 1}`
+            itemList.appendChild(newItem)
+        })
+    </script>
+</body>
+</html>
