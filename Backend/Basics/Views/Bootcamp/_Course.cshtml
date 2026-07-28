@@ -1,0 +1,15 @@
+@model Bootcamp
+
+    <div class="card mb-3" id="kurs_@Model.Id">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="~/images/@Model.Image" alt="@Model.Name" class="img-fluid">
+                        </div>
+                        <div class="col-md-8">
+                            <a asp-controller="Bootcamp" asp-action="Details" asp-route-id="@Model.Id">
+                                <h2>@Model.Name</h2>
+                            </a>
+                            <p>@Model.Description</p>
+                        </div>
+                    </div>
+                </div>

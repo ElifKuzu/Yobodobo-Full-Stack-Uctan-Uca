@@ -1,0 +1,8 @@
+@model List<Bootcamp>
+
+            @foreach (var bootcamp in Model)
+            {
+                @if(bootcamp.IsActive){
+                @await Html.PartialAsync(partialViewName: "_Course", bootcamp)
+                }
+            }

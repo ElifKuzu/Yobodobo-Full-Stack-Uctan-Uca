@@ -1,0 +1,8 @@
+@model Bootcamp
+<div class="p-5 mb-4 bg-light rounded-3">
+    <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">@Model.Name</h1>
+        <p class="col-md-8 fs-4">@Model.Description</p>
+        <a class="btn btn-primary btn-lg" href="@Url.Action("List", "Bootcamp")" role="button">View All Bootcamps</a>
+    </div>
+</div>
