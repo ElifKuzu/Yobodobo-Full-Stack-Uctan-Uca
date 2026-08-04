@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kaya3\\Documents\\GitHub\\Yobodobo-Full-Stack-Uctan-Uca\\Backend\\yoboApi\\yoboApi.csproj": {}
+    "C:\\Users\\Kaya3\\Documents\\GitHub\\Yobodobo-Full-Stack-Uctan-Uca\\Backend\\yoboapi\\yoboApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kaya3\\Documents\\GitHub\\Yobodobo-Full-Stack-Uctan-Uca\\Backend\\yoboApi\\yoboApi.csproj": {
+    "C:\\Users\\Kaya3\\Documents\\GitHub\\Yobodobo-Full-Stack-Uctan-Uca\\Backend\\yoboapi\\yoboApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kaya3\\Documents\\GitHub\\Yobodobo-Full-Stack-Uctan-Uca\\Backend\\yoboApi\\yoboApi.csproj",
+        "projectUniqueName": "C:\\Users\\Kaya3\\Documents\\GitHub\\Yobodobo-Full-Stack-Uctan-Uca\\Backend\\yoboapi\\yoboApi.csproj",
         "projectName": "yoboApi",
-        "projectPath": "C:\\Users\\Kaya3\\Documents\\GitHub\\Yobodobo-Full-Stack-Uctan-Uca\\Backend\\yoboApi\\yoboApi.csproj",
+        "projectPath": "C:\\Users\\Kaya3\\Documents\\GitHub\\Yobodobo-Full-Stack-Uctan-Uca\\Backend\\yoboapi\\yoboApi.csproj",
         "packagesPath": "C:\\Users\\Kaya3\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kaya3\\Documents\\GitHub\\Yobodobo-Full-Stack-Uctan-Uca\\Backend\\yoboApi\\obj\\",
+        "outputPath": "C:\\Users\\Kaya3\\Documents\\GitHub\\Yobodobo-Full-Stack-Uctan-Uca\\Backend\\yoboapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
