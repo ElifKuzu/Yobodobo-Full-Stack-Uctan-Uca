@@ -88,7 +88,7 @@ console.log("Gelen Blog Maddeleri:", items.map(b => ({ title: b.title, authorId:
                                     {b.authorFullName ?? b.authorEmail} - {new Date(b.createdAt).toLocaleString()}
                                 </div>
                                 <div style={{ marginTop: 8, display: "flex", gap: 8, alignItems: "center" }}>
-                                    <button onClick={() => navigate(`/blog/${b.id}`)}>View Details</button>
+                                    <button onClick={() => navigate(`/blog/${b.slug}`)}>View Details</button>
                                     {mine && (
                                         <>
                                             <Link to={`/blog/edit/${b.id}`}>Edit</Link>

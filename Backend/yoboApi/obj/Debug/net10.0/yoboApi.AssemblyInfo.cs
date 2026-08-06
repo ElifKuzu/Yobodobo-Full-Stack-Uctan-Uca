@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("yoboApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b09ff040d8935ba5f5089828490b0bd719a80e34")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+62f29e3b21ce38d1d1806efa93886ad3e95d5627")]
 [assembly: System.Reflection.AssemblyProductAttribute("yoboApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("yoboApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
